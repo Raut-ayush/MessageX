@@ -1,0 +1,7 @@
+<!-- templates/upload.html -->
+<h1>Upload PDF Files</h1>
+<p>OTP: {{ otp }}</p>
+<form method="POST" enctype="multipart/form-data">
+    <input type="file" name="pdfs" multiple accept="application/pdf">
+    <button type="submit">Upload</button>
+</form>
